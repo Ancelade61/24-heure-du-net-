@@ -1,0 +1,30 @@
+.map__image{
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+
+.map__image path{
+    fill: #00bdce;
+    stroke: black;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+.map__image path:hover{
+    fill: #006e00; 
+    stroke: black;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+.map__list{
+    float: right;
+    width: 50%;
+}
+
+.map__list a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
